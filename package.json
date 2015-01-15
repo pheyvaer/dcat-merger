@@ -1,0 +1,15 @@
+{
+  "name": "dcat-merger",
+  "version": "0.0.1",
+  "description": "Merging several DCAT inputs into a single DCAT output.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pieter Heyvaert <pheyvaer.heyvaert@ugent.be> (http://pheyvaer.github.io)",
+  "dependencies": {
+    "n3": "^0.4.0",
+    "path": "^0.11.14",
+    "q": "^1.1.2"
+  }
+}

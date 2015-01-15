@@ -1,0 +1,47 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fb: <http://www.facebook.com/2008/fbml> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xhv: <http://www.w3.org/1999/xhtml/vocab#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+<http://data.gov.uk/dataset/anonymised_mot_test> xhv:icon <http://data.gov.uk/sites/default/files/datagovuk_favicon.png> ;
+     xhv:stylesheet <http://data.gov.uk/sites/default/files/css/css_394be9f1daf908b595b591dff9341526.css>, <http://data.gov.uk/sites/default/files/css/css_76da38f31410f5bfeb2deac69ad2effb.css> . 
+
+<http://data.gov.uk/id/dataset/anonymised_mot_test> dct:accrualPeriodicity "2010-11-24"@en ;
+     dct:contributor "Vehicle Operator Services Agency (VOSA)"@en ;
+     dct:created "2010-11-24"@en ;
+     dct:creator "Vehicle Statistics"@en ;
+     dct:description ""
+        <p xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">All MOT tests and outcomes, including make and model of vehicle, odometer reading and reasons for failure, since the MOT system was computerised in 2005.</p>
+  ""^^rdf:XMLLiteral ;
+     dct:identifier "http://data.gov.uk/id/dataset/anonymised_mot_test"@en ;
+     dct:isReferencedBy <https://www.data.gov.uk/wiki/index.php/Package:anonymised_mot_test> ;
+     dct:license "UK Open Government Licence (OGL)"@en ;
+     dct:publisher "<a href=\"/search/apachesolr_search?filters=ss_cck_field_publisher%3A&quot;Department for Transport&quot;\" xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">Department for Transport</a>"^^rdf:XMLLiteral ;
+     dct:spatial "<a href=\"/data/nation/England\" rel=\"dct:spatial\" xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">England</a> <a href=\"/data/nation/Scotland\" rel=\"dct:spatial\" xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">Scotland</a> <a href=\"/data/nation/Wales\" rel=\"dct:spatial\" xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">Wales</a> "^^rdf:XMLLiteral ;
+     dct:title "Anonymised MOT tests and results"@en ;
+     dcat:distribution
+         <http://www.dft.gov.uk/data/download/10007/DOC>,
+         <http://www.dft.gov.uk/data/download/10008/ZIP>,
+         <http://www.dft.gov.uk/data/download/10009/GZ>,
+         <http://www.dft.gov.uk/data/download/10010/GZ>,
+         <http://www.dft.gov.uk/data/download/10011/GZ>,
+         <http://www.dft.gov.uk/data/download/10012/GZ>,
+         <http://www.dft.gov.uk/data/download/10013/GZ>,
+         <http://www.dft.gov.uk/data/download/10014/GZ>,
+         <http://www.dft.gov.uk/data/download/10015/GZ>,
+         <http://www.dft.gov.uk/data/download/10016/GZ>,
+         <http://www.dft.gov.uk/data/download/10017/GZ>,
+         <http://www.dft.gov.uk/data/download/10018/GZ>,
+         <http://www.dft.gov.uk/data/download/10019/GZ>,
+         <http://www.dft.gov.uk/data/download/10020/GZ>,
+         <http://www.dft.gov.uk/data/download/10021/GZ>,
+         <http://www.dft.gov.uk/data/download/10022/GZ> ;
+     dcat:granularity "points"@en ;
+     dcat:keyword <http://data.gov.uk/search/apachesolr_search?filters=tid%3A1376>, <http://data.gov.uk/search/apachesolr_search?filters=tid%3A5737>, <http://data.gov.uk/search/apachesolr_search?filters=tid%3A5738> ;
+     foaf:homepage <http://www.dft.gov.uk/data/release/10007> . 

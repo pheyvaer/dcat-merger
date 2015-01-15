@@ -1,0 +1,346 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix odrs: <http://schema.theodi.org/odrs#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xhv: <http://www.w3.org/1999/xhtml/vocab#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://p2p.labs.theodi.org/download> a dcat:Catalog ;
+    dct:accrualPeriodicity "http://purl.org/cld/freq/irregular" ;
+    dct:language "http://id.loc.gov/vocabulary/iso639-1/en" ;
+    dct:rights <http://smtm.labs.theodi.org/rights> ;
+    dct:spatial "http://dbpedia.org/resource/United_Kingdom" ;
+    dct:temporal "start=2010-10-01; end=2013-05-31" ;
+    dcat:dataset <http://p2p.labs.theodi.org/download/#borderee>,
+        <http://p2p.labs.theodi.org/download/#borderem>,
+        <http://p2p.labs.theodi.org/download/#borderlondon>,
+        <http://p2p.labs.theodi.org/download/#borderne>,
+        <http://p2p.labs.theodi.org/download/#borderni>,
+        <http://p2p.labs.theodi.org/download/#bordernw>,
+        <http://p2p.labs.theodi.org/download/#borderscotland>,
+        <http://p2p.labs.theodi.org/download/#borderse>,
+        <http://p2p.labs.theodi.org/download/#bordersw>,
+        <http://p2p.labs.theodi.org/download/#borderwales>,
+        <http://p2p.labs.theodi.org/download/#borderwm>,
+        <http://p2p.labs.theodi.org/download/#borderyh>,
+        <http://p2p.labs.theodi.org/download/#county>,
+        <http://p2p.labs.theodi.org/download/#flow>,
+        <http://p2p.labs.theodi.org/download/#full>,
+        <http://p2p.labs.theodi.org/download/#lenderee>,
+        <http://p2p.labs.theodi.org/download/#lenderem>,
+        <http://p2p.labs.theodi.org/download/#lenderlondon>,
+        <http://p2p.labs.theodi.org/download/#lenderne>,
+        <http://p2p.labs.theodi.org/download/#lenderni>,
+        <http://p2p.labs.theodi.org/download/#lendernw>,
+        <http://p2p.labs.theodi.org/download/#lenderscotland>,
+        <http://p2p.labs.theodi.org/download/#lenderse>,
+        <http://p2p.labs.theodi.org/download/#lendersw>,
+        <http://p2p.labs.theodi.org/download/#lenderwales>,
+        <http://p2p.labs.theodi.org/download/#lenderwm>,
+        <http://p2p.labs.theodi.org/download/#lenderyh>,
+        <http://p2p.labs.theodi.org/download/#region> ;
+    dcat:issued "2013-07-16" .
+
+<http://smtm.labs.theodi.org/download/> xhv:license <http://creativecommons.org/licenses/by-sa/2.0/uk/deed.en_GB> .
+
+<http://p2p.labs.theodi.org/download/#borderee> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://data.ordnancesurvey.co.uk/id/7000000000041425" ;
+            dct:title ""
+				East of England
+			"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.east_of_england.csv.zip> ;
+            dcat:byteSize 19597885.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#borderem> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://data.ordnancesurvey.co.uk/id/7000000000041423" ;
+            dct:title ""
+				East Midlands
+			"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.east_midlands.csv.zip> ;
+            dcat:byteSize 15424553.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#borderlondon> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://data.ordnancesurvey.co.uk/id/7000000000041428" ;
+            dct:title ""
+				London
+			"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.london.csv.zip> ;
+            dcat:byteSize 24054333.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#borderne> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://data.ordnancesurvey.co.uk/id/7000000000041422" ;
+            dct:title ""
+				North East
+			"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.north_east.csv.zip> ;
+            dcat:byteSize 11041505.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#borderni> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://dbpedia.org/page/Northern_Ireland" ;
+            dct:title ""
+				Northern Ireland
+			"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.northern_ireland.csv.zip> ;
+            dcat:byteSize 4330618.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#bordernw> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://data.ordnancesurvey.co.uk/id/7000000000041431" ;
+            dct:title ""
+				North West
+			"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.north_west.csv.zip> ;
+            dcat:byteSize 27420262.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#borderscotland> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://data.ordnancesurvey.co.uk/doc/country/scotland" ;
+            dct:title ""
+				Scotland
+			"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.scotland.csv.zip> ;
+            dcat:byteSize 23897047.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#borderse> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://data.ordnancesurvey.co.uk/id/7000000000041421" ;
+            dct:title ""
+					South East
+				"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.south_east.csv.zip> ;
+            dcat:byteSize 32768000.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#bordersw> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://data.ordnancesurvey.co.uk/id/7000000000041427" ;
+            dct:title ""
+				South West
+			"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.south_west.csv.zip> ;
+            dcat:byteSize 20436746.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#borderwales> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://data.ordnancesurvey.co.uk/doc/country/wales" ;
+            dct:title ""
+				Wales
+			"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.wales.csv.zip> ;
+            dcat:byteSize 14648607.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#borderwm> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://data.ordnancesurvey.co.uk/id/7000000000041426" ;
+            dct:title ""
+				West Midlands
+			"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.west_midlands.csv.zip> ;
+            dcat:byteSize 18371052.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#borderyh> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://data.ordnancesurvey.co.uk/id/7000000000041430" ;
+            dct:title ""
+				Yorkshire and the Humber
+			"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.bor.yorkshire_and_the_humber.csv.zip> ;
+            dcat:byteSize 23697818.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#county> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:title ""
+				Statistics by County
+			"";
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/county-statistics-p2p.csv> ;
+            dcat:byteSize 1455.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#flow> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:title ""
+				Region Flow
+			"";
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/region-flow-p2p.csv> ;
+            dcat:byteSize 19313.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#full> a dcat:Dataset ;
+    dct:title "Full data" ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://dbpedia.org/resource/United_Kingdom" ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/complete.no.postcodes.csv.zip> ;
+            dcat:byteSize 240585277.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#lenderee> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://data.ordnancesurvey.co.uk/id/7000000000041425" ;
+            dct:title ""
+				East of England
+			"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.east_of_england.csv.zip> ;
+            dcat:byteSize 22124953.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#lenderem> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://data.ordnancesurvey.co.uk/id/7000000000041423" ;
+            dct:title ""
+				East Midlands
+			"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.east_midlands.csv.zip> ;
+            dcat:byteSize 11827937.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#lenderlondon> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://data.ordnancesurvey.co.uk/id/7000000000041428" ;
+            dct:title ""
+				London
+			"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.london.csv.zip> ;
+            dcat:byteSize 50541363.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#lenderne> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://data.ordnancesurvey.co.uk/id/7000000000041422" ;
+            dct:title ""
+				North East
+			"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.north_east.csv.zip> ;
+            dcat:byteSize 6574572.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#lenderni> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://dbpedia.org/page/Northern_Ireland" ;
+            dct:title ""
+				Northern Ireland
+			"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.northern_ireland.csv.zip> ;
+            dcat:byteSize 2023751.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#lendernw> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://data.ordnancesurvey.co.uk/id/7000000000041431" ;
+            dct:title ""
+				North West
+			"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.north_west.csv.zip> ;
+            dcat:byteSize 18025021.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#lenderscotland> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://data.ordnancesurvey.co.uk/doc/country/scotland" ;
+            dct:title ""
+				Scotland
+			"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.scotland.csv.zip> ;
+            dcat:byteSize 13862175.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#lenderse> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://data.ordnancesurvey.co.uk/id/7000000000041421" ;
+            dct:title ""
+					South East
+				"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.south_east.csv.zip> ;
+            dcat:byteSize 49534730.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#lendersw> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://data.ordnancesurvey.co.uk/id/7000000000041427" ;
+            dct:title ""
+				South West
+			"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.south_west.csv.zip> ;
+            dcat:byteSize 26906460.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#lenderwales> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://data.ordnancesurvey.co.uk/doc/country/wales" ;
+            dct:title ""
+				Wales
+			"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.wales.csv.zip> ;
+            dcat:byteSize 9500099.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#lenderwm> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://data.ordnancesurvey.co.uk/id/7000000000041426" ;
+            dct:title ""
+				West Midlands
+			"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.west_midlands.csv.zip> ;
+            dcat:byteSize 14176748.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#lenderyh> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:spatial "http://data.ordnancesurvey.co.uk/id/7000000000041430" ;
+            dct:title ""
+				Yorkshire and the Humber
+			"";
+            dct:type xhv:indirect-access ;
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/by.region.len.yorkshire_and_the_humber.csv.zip> ;
+            dcat:byteSize 15487468.0 ;
+            dcat:mediaType "text/csv" ] .
+
+<http://p2p.labs.theodi.org/download/#region> a dcat:Dataset ;
+    dcat:distribution [ a dcat:Distribution ;
+            dct:title ""
+				Statistics by Region
+			"";
+            dcat:accessURL <http://4feb814f800c80231150-8876dec7442c825b72049e4e2a169344.r56.cf3.rackcdn.com/region-statistics-p2p.csv> ;
+            dcat:byteSize 1096.0 ;
+            dcat:mediaType "text/csv" ] .

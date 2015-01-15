@@ -1,0 +1,1007 @@
+
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://demo.thedatatank.com/api/dcat>
+  a dcat:Catalog ;
+  dc:title "The DataTank Demo" ;
+  dc:description "A demo catalog of datasets published by The DataTank." ;
+  dc:issued "2013-12-04T09:35:15+0000" ;
+  dc:language <http://lexvo.org/id/iso639-3/eng> ;
+  foaf:homepage <http://demo.thedatatank.com> ;
+  dc:license <http://www.opendefinition.org/licenses/cc-zero> ;
+  dc:publisher <http://thedatatank.com/#organization> ;
+  dc:modified "2014-10-06T12:32:47+0000" ;
+  dcat:dataset <http://demo.thedatatank.com/csv/geo>, <http://demo.thedatatank.com/json/crime>, <http://demo.thedatatank.com/xml/persons>, <http://demo.thedatatank.com/dresden/rivers>, <http://demo.thedatatank.com/france/places>, <http://demo.thedatatank.com/xls/baseball>, <http://demo.thedatatank.com/ckan/ff3de40d-0305-4b77-a367-97bf1aa6c72e/gent>, <http://demo.thedatatank.com/ckan/ec91e153-0f3a-46b8-bc22-27f2fe000943/stations>, <http://demo.thedatatank.com/brussels/european_institutions>, <http://demo.thedatatank.com/brussels/atm>, <http://demo.thedatatank.com/brussels/infopoints>, <http://demo.thedatatank.com/brussels/youth_hostels>, <http://demo.thedatatank.com/brussels/museums>, <http://demo.thedatatank.com/brussels/parks>, <http://demo.thedatatank.com/brussels/police>, <http://demo.thedatatank.com/brussels/comics_tour>, <http://demo.thedatatank.com/flanders/datasets>, <http://demo.thedatatank.com/france/bibliotheques>, <http://demo.thedatatank.com/okfestival2014/csvconf>, <http://demo.thedatatank.com/okfn/country-codes>, <http://demo.thedatatank.com/kortrijk/parking/shopandgo>, <http://demo.thedatatank.com/ckan/2a8c6414-1523-4c5b-a2a0-ac59f00aff63/indicateurs%20sites%20web%20communaux%202010>, <http://demo.thedatatank.com/ckan/71c5031f-c79f-4ece-a2c2-22e55144a74c/indicateurs%20sites%20web%20communaux%202010>, <http://demo.thedatatank.com/ckan/418cb26b-5106-4b09-b845-28c519e15cb6/indicateurs%20sites%20web%20communaux%202012>, <http://demo.thedatatank.com/ckan/bb59152b-bd50-478c-94cc-ce9b120f3f06/indicateurs%20citoyens%202013>, <http://demo.thedatatank.com/ckan/4ce9756b-e8d6-4cc8-913b-2c2019a57729/indicateurs%20citoyens%202012>, <http://demo.thedatatank.com/ckan/a64c982b-9209-4591-8881-5afbe725f5c3/indicateurs%20citoyens%202013>, <http://demo.thedatatank.com/ckan/8e97e4d3-cb04-45f2-aa2f-ab9c685550c9/indicateurs%20citoyens%202012>, <http://demo.thedatatank.com/ckan/0099a34d-03fb-441f-96c6-1f42b77eabeb/indicateurs%20éducation%202013>, <http://demo.thedatatank.com/ckan/4c172df1-07a3-4e23-9645-54b4a73eadfd/indicateurs%20éducation%202013>, <http://demo.thedatatank.com/ckan/38d75d17-7167-4bf7-a532-025ee6d9040c/indicateurs%20éducation%202010>, <http://demo.thedatatank.com/ckan/a673eeed-0c06-4632-bc69-543509044449/indicateurs%20éducation%202010>, <http://demo.thedatatank.com/ckan/f815e808-f5d1-4d92-a4f6-c1dce6e84608/indicateurs%20ménages%202012>, <http://demo.thedatatank.com/ckan/59d86abf-f8c1-454e-974e-0f58ece9a043/indicateurs%20ménages%202013>, <http://demo.thedatatank.com/ckan/78ba34b2-0a39-468d-b1dc-85293e4da6de/indicateurs%20ménages%202012>, <http://demo.thedatatank.com/ckan/9411ecac-6d87-47f1-a8d7-0b1188a7265b/indicateurs%20tic%20entreprises%202012>, <http://demo.thedatatank.com/ckan/0ae55f4d-7e11-4356-abad-4c19aa4152d8/indicateurs%20tic%20entreprises%202013>, <http://demo.thedatatank.com/ckan/c1223fbc-5231-4c57-88ba-86ce8fc51d03/indicateurs%20tic%20entreprises%202013>, <http://demo.thedatatank.com/un/cofog>, <http://demo.thedatatank.com/openbelgium/ec91e153-0f3a-46b8-bc22-27f2fe000943>, <http://demo.thedatatank.com/openbelgium/ff3de40d-0305-4b77-a367-97bf1aa6c72e>, <http://demo.thedatatank.com/openbelgium/9411ecac-6d87-47f1-a8d7-0b1188a7265b>, <http://demo.thedatatank.com/okfn/census>, <http://demo.thedatatank.com/openbelgium/a5bc6b22-a22d-4843-a55c-99b9463a2951>, <http://demo.thedatatank.com/openbelgium/c8f61eea-c953-4416-9ad4-7bed2b7c7f5a>, <http://demo.thedatatank.com/openbelgium/1ab43b94-6436-49d4-b8cc-3a2ca0db6f81>, <http://demo.thedatatank.com/openbelgium/8c463112-5644-4082-8ee3-525ef23aa65d>, <http://demo.thedatatank.com/openbelgium/db67e9e5-985f-4b64-a8c7-6221ab232e1b>, <http://demo.thedatatank.com/openbelgium/3e238b91-2e6e-44d4-bf78-e738440cf7e5>, <http://demo.thedatatank.com/openbelgium/9991a1d2-1f3e-4c62-ae81-9c73b29f1f21>, <http://demo.thedatatank.com/openbelgium/dfdafab1-92e4-45d0-8971-6ab6af346e1c>, <http://demo.thedatatank.com/openbelgium/4e4b7130-ccda-4e13-b23a-f5be6fb044f0>, <http://demo.thedatatank.com/openbelgium/a54f2b68-b54e-4f6a-8503-9d5eb9068e4f>, <http://demo.thedatatank.com/openbelgium/7a3e6c3e-bc33-4f71-a88f-b49fa04caf69>, <http://demo.thedatatank.com/openbelgium/f7b2b163-9c19-4e05-961a-c318f3d68360>, <http://demo.thedatatank.com/openbelgium/7a191550-71b1-4f42-96aa-629a6e10e055>, <http://demo.thedatatank.com/openflights/airlines>, <http://demo.thedatatank.com/openbelgium/b028b040-7dbf-4d8a-97e6-ac3aabe66a5d>, <http://demo.thedatatank.com/railways/stations>, <http://demo.thedatatank.com/wikipedia/nmbs/stations>, <http://demo.thedatatank.com/dbpedia/stations>, <http://demo.thedatatank.com/openbelgium/d48011dc-93a2-4239-aad3-fd294d474cb1>, <http://demo.thedatatank.com/villo/availability>, <http://demo.thedatatank.com/eandis/afschakelplan/westvlaanderen>, <http://demo.thedatatank.com/eandis/afschakelplan/oostvlaanderen>, <http://demo.thedatatank.com/dcat/demo> .
+
+<http://lexvo.org/id/iso639-3/eng> a dc:LinguisticSystem .
+<http://www.opendefinition.org/licenses/cc-zero> a dc:LicenseDocument .
+<http://thedatatank.com/#organization>
+  a foaf:Agent ;
+  foaf:name "The DataTank" .
+
+<http://demo.thedatatank.com/csv/geo>
+  a dcat:Dataset ;
+  dc:title "Provinces and districts in Afghanistan" ;
+  dc:description "Geographical data about Afghanistan concerning provinces and districts." ;
+  dc:identifier "csv/geo" ;
+  dc:issued "2013-12-04T09:35:22+0000" ;
+  dc:modified "2014-09-23T09:52:57+0000" ;
+  dc:language <http://lexvo.org/id/iso639-3/ara> ;
+  dcat:distribution <http://demo.thedatatank.com/csv/geo.json> .
+
+<http://lexvo.org/id/iso639-3/ara> a dc:LinguisticSystem .
+<http://demo.thedatatank.com/csv/geo.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/csv/geo" ;
+  dc:mediaType "application/json" ;
+  dc:license <http://www.opendefinition.org/licenses/gfdl> .
+
+<http://www.opendefinition.org/licenses/gfdl> a dc:LicenseDocument .
+<http://demo.thedatatank.com/json/crime>
+  a dcat:Dataset ;
+  dc:title "json/crime" ;
+  dc:description "Crime data from the uk." ;
+  dc:identifier "json/crime" ;
+  dc:issued "2013-12-04T09:35:22+0000" ;
+  dc:modified "2013-12-04T09:35:22+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/json/crime.json> .
+
+<http://demo.thedatatank.com/json/crime.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/json/crime" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/xml/persons>
+  a dcat:Dataset ;
+  dc:title "xml/persons" ;
+  dc:description "Auto-generated xml file about persons." ;
+  dc:identifier "xml/persons" ;
+  dc:issued "2013-12-04T09:35:22+0000" ;
+  dc:modified "2013-12-04T09:35:22+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/xml/persons.json> .
+
+<http://demo.thedatatank.com/xml/persons.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/xml/persons" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/dresden/rivers>
+  a dcat:Dataset ;
+  dc:title "dresden/rivers" ;
+  dc:description "Shape file about rivers in Dresden." ;
+  dc:identifier "dresden/rivers" ;
+  dc:issued "2013-12-04T09:35:22+0000" ;
+  dc:modified "2013-12-04T09:35:22+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/dresden/rivers.json> .
+
+<http://demo.thedatatank.com/dresden/rivers.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/dresden/rivers" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/france/places>
+  a dcat:Dataset ;
+  dc:title "france/places" ;
+  dc:description "Interesting places from \"Ile-de-France\"." ;
+  dc:identifier "france/places" ;
+  dc:issued "2013-12-04T09:35:22+0000" ;
+  dc:modified "2014-01-28T20:42:46+0000" ;
+  dc:source <http://www.mapcruzin.com/free-france-arcgis-maps-shapefiles.htm> ;
+  dc:language <http://lexvo.org/id/iso639-3/fra> ;
+  dcat:distribution <http://demo.thedatatank.com/france/places.json> .
+
+<http://lexvo.org/id/iso639-3/fra> a dc:LinguisticSystem .
+<http://demo.thedatatank.com/france/places.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/france/places" ;
+  dc:mediaType "application/json" ;
+  dc:license <http://www.opendefinition.org/licenses/cc-by-sa> .
+
+<http://www.opendefinition.org/licenses/cc-by-sa> a dc:LicenseDocument .
+<http://demo.thedatatank.com/xls/baseball>
+  a dcat:Dataset ;
+  dc:title "xls/baseball" ;
+  dc:description "Individual offensive statistics from the 2008 Major League Baseball season." ;
+  dc:identifier "xls/baseball" ;
+  dc:issued "2013-12-04T09:35:23+0000" ;
+  dc:modified "2013-12-04T09:35:23+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/xls/baseball.json> .
+
+<http://demo.thedatatank.com/xls/baseball.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/xls/baseball" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/ckan/ff3de40d-0305-4b77-a367-97bf1aa6c72e/gent>
+  a dcat:Dataset ;
+  dc:title "ckan/ff3de40d-0305-4b77-a367-97bf1aa6c72e/gent" ;
+  dc:description "Parking data in Gent" ;
+  dc:identifier "ckan/ff3de40d-0305-4b77-a367-97bf1aa6c72e/gent" ;
+  dc:issued "2013-12-12T16:59:07+0000" ;
+  dc:modified "2013-12-12T16:59:07+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/ckan/ff3de40d-0305-4b77-a367-97bf1aa6c72e/gent.json> .
+
+<http://demo.thedatatank.com/ckan/ff3de40d-0305-4b77-a367-97bf1aa6c72e/gent.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/ckan/ff3de40d-0305-4b77-a367-97bf1aa6c72e/gent" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/ckan/ec91e153-0f3a-46b8-bc22-27f2fe000943/stations>
+  a dcat:Dataset ;
+  dc:title "ckan/ec91e153-0f3a-46b8-bc22-27f2fe000943/stations" ;
+  dc:description "All railway stations in Belgium" ;
+  dc:identifier "ckan/ec91e153-0f3a-46b8-bc22-27f2fe000943/stations" ;
+  dc:issued "2013-12-12T16:59:28+0000" ;
+  dc:modified "2013-12-12T16:59:28+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/ckan/ec91e153-0f3a-46b8-bc22-27f2fe000943/stations.json> .
+
+<http://demo.thedatatank.com/ckan/ec91e153-0f3a-46b8-bc22-27f2fe000943/stations.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/ckan/ec91e153-0f3a-46b8-bc22-27f2fe000943/stations" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/brussels/european_institutions>
+  a dcat:Dataset ;
+  dc:title "brussels/european_institutions" ;
+  dc:description "Location of the European institutions on the territory of the City of Brussels" ;
+  dc:identifier "brussels/european_institutions" ;
+  dc:issued "2013-12-15T15:22:03+0000" ;
+  dc:modified "2013-12-15T15:38:11+0000" ;
+  dc:source <http://www.brussels.be/artdet.cfm/7251/Open-data-European-institutions> ;
+  dc:date "06-03-2012" ;
+  dcat:distribution <http://demo.thedatatank.com/brussels/european_institutions.json> .
+
+<http://demo.thedatatank.com/brussels/european_institutions.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/brussels/european_institutions" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/brussels/atm>
+  a dcat:Dataset ;
+  dc:title "brussels/atm" ;
+  dc:description "Location of ATMS on the territory of the City of Brussels" ;
+  dc:identifier "brussels/atm" ;
+  dc:issued "2013-12-15T15:24:09+0000" ;
+  dc:modified "2013-12-15T15:38:56+0000" ;
+  dc:source <http://www.brussels.be/artdet.cfm/7202/Open-data-ATMs> ;
+  dc:date "14-02-13" ;
+  dcat:distribution <http://demo.thedatatank.com/brussels/atm.json> .
+
+<http://demo.thedatatank.com/brussels/atm.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/brussels/atm" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/brussels/infopoints>
+  a dcat:Dataset ;
+  dc:title "brussels/infopoints" ;
+  dc:description "http://www.brussels.be/artdet.cfm/7228/Open-data-tourist-offices" ;
+  dc:identifier "brussels/infopoints" ;
+  dc:issued "2013-12-15T15:26:59+0000" ;
+  dc:modified "2013-12-15T15:39:40+0000" ;
+  dc:source <http://www.brussels.be/artdet.cfm/7228/Open-data-tourist-offices> ;
+  dc:date "20-03-2012" ;
+  dcat:distribution <http://demo.thedatatank.com/brussels/infopoints.json> .
+
+<http://demo.thedatatank.com/brussels/infopoints.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/brussels/infopoints" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/brussels/youth_hostels>
+  a dcat:Dataset ;
+  dc:title "brussels/youth_hostels" ;
+  dc:description "Location of the youth hotels on the territory of the City of Brussels" ;
+  dc:identifier "brussels/youth_hostels" ;
+  dc:issued "2013-12-15T15:28:59+0000" ;
+  dc:modified "2013-12-15T15:40:08+0000" ;
+  dc:source <http://www.brussels.be/artdet.cfm/7229/Open-data-youth-hotels> ;
+  dc:date "06-03-12" ;
+  dcat:distribution <http://demo.thedatatank.com/brussels/youth_hostels.json> .
+
+<http://demo.thedatatank.com/brussels/youth_hostels.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/brussels/youth_hostels" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/brussels/museums>
+  a dcat:Dataset ;
+  dc:title "brussels/museums" ;
+  dc:description "Location of the museums of the City of Brussels" ;
+  dc:identifier "brussels/museums" ;
+  dc:issued "2013-12-15T15:30:55+0000" ;
+  dc:modified "2013-12-15T15:40:40+0000" ;
+  dc:source <http://www.brussel.be/artdet.cfm/7237/Open-data-museums> ;
+  dc:date "06-03-2012" ;
+  dcat:distribution <http://demo.thedatatank.com/brussels/museums.json> .
+
+<http://demo.thedatatank.com/brussels/museums.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/brussels/museums" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/brussels/parks>
+  a dcat:Dataset ;
+  dc:title "brussels/parks" ;
+  dc:description "Location of the parks and gardens on the territory of the City of Brussels" ;
+  dc:identifier "brussels/parks" ;
+  dc:issued "2013-12-15T15:31:49+0000" ;
+  dc:modified "2013-12-15T15:41:10+0000" ;
+  dc:source <http://www.brussels.be/artdet.cfm/7232/Open-data-parks> ;
+  dc:date "06-03-2012" ;
+  dcat:distribution <http://demo.thedatatank.com/brussels/parks.json> .
+
+<http://demo.thedatatank.com/brussels/parks.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/brussels/parks" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/brussels/police>
+  a dcat:Dataset ;
+  dc:title "brussels/police" ;
+  dc:description "Location of the police offices on the territory of the City of Brussels." ;
+  dc:identifier "brussels/police" ;
+  dc:issued "2013-12-15T15:34:50+0000" ;
+  dc:modified "2013-12-15T15:42:29+0000" ;
+  dc:source <http://www.brussels.be/artdet.cfm/7231/Open-data-police-stations> ;
+  dc:date "06-03-2012" ;
+  dcat:distribution <http://demo.thedatatank.com/brussels/police.json> .
+
+<http://demo.thedatatank.com/brussels/police.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/brussels/police" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/brussels/comics_tour>
+  a dcat:Dataset ;
+  dc:title "brussels/comics_tour" ;
+  dc:description "Location of comic book walls of the City of Brussels" ;
+  dc:identifier "brussels/comics_tour" ;
+  dc:issued "2013-12-15T15:36:13+0000" ;
+  dc:modified "2013-12-15T15:36:13+0000" ;
+  dc:source <http://www.brussel.be/artdet.cfm/7192/Open-data-striproute> ;
+  dc:date "01-10-2013" ;
+  dcat:distribution <http://demo.thedatatank.com/brussels/comics_tour.json> .
+
+<http://demo.thedatatank.com/brussels/comics_tour.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/brussels/comics_tour" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/flanders/datasets>
+  a dcat:Dataset ;
+  dc:title "flanders/datasets" ;
+  dc:description "All datasets of the Flemish government that should be released as Open Data" ;
+  dc:identifier "flanders/datasets" ;
+  dc:issued "2013-12-16T18:13:11+0000" ;
+  dc:modified "2013-12-16T18:13:11+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/flanders/datasets.json> .
+
+<http://demo.thedatatank.com/flanders/datasets.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/flanders/datasets" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/france/bibliotheques>
+  a dcat:Dataset ;
+  dc:title "france/bibliotheques" ;
+  dc:description "Liste des bibliothèques publiques. Les données des bibliothèques" ;
+  dc:identifier "france/bibliotheques" ;
+  dc:issued "2013-12-18T23:37:40+0000" ;
+  dc:modified "2014-01-28T09:23:43+0000" ;
+  dc:source <http://www.data.gouv.fr/fr/dataset/adresses-des-bibliotheques-publiques> ;
+  dc:date "2013-09-15" ;
+  dcat:distribution <http://demo.thedatatank.com/france/bibliotheques.json> .
+
+<http://demo.thedatatank.com/france/bibliotheques.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/france/bibliotheques" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/okfestival2014/csvconf>
+  a dcat:Dataset ;
+  dc:title "okfestival2014/csvconf" ;
+  dc:description "Conference announcement" ;
+  dc:identifier "okfestival2014/csvconf" ;
+  dc:issued "2014-01-02T23:43:38+0000" ;
+  dc:modified "2014-01-02T23:43:38+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/okfestival2014/csvconf.json> .
+
+<http://demo.thedatatank.com/okfestival2014/csvconf.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/okfestival2014/csvconf" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/okfn/country-codes>
+  a dcat:Dataset ;
+  dc:title "okfn/country-codes" ;
+  dc:description "Comprehensive country code information, including ISO 3166 codes, ITU dialing codes, ISO 4217 currency codes, and many others" ;
+  dc:identifier "okfn/country-codes" ;
+  dc:issued "2014-01-14T18:26:32+0000" ;
+  dc:modified "2014-01-14T18:26:32+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/okfn/country-codes.json> .
+
+<http://demo.thedatatank.com/okfn/country-codes.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/okfn/country-codes" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/kortrijk/parking/shopandgo>
+  a dcat:Dataset ;
+  dc:title "kortrijk/parking/shopandgo" ;
+  dc:description "Shop&Go realtime bezetting" ;
+  dc:identifier "kortrijk/parking/shopandgo" ;
+  dc:issued "2014-01-20T16:54:55+0000" ;
+  dc:modified "2014-01-20T16:54:55+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/kortrijk/parking/shopandgo.json> .
+
+<http://demo.thedatatank.com/kortrijk/parking/shopandgo.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/kortrijk/parking/shopandgo" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/ckan/2a8c6414-1523-4c5b-a2a0-ac59f00aff63/indicateurs%20sites%20web%20communaux%202010>
+  a dcat:Dataset ;
+  dc:title "ckan/2a8c6414-1523-4c5b-a2a0-ac59f00aff63/indicateurs sites web communaux 2010" ;
+  dc:description "Données collectées à l'automne 2009" ;
+  dc:identifier "ckan/2a8c6414-1523-4c5b-a2a0-ac59f00aff63/indicateurs%20sites%20web%20communaux%202010" ;
+  dc:issued "2014-01-27T10:15:15+0000" ;
+  dc:modified "2014-01-27T10:15:15+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/ckan/2a8c6414-1523-4c5b-a2a0-ac59f00aff63/indicateurs%20sites%20web%20communaux%202010.json> .
+
+<http://demo.thedatatank.com/ckan/2a8c6414-1523-4c5b-a2a0-ac59f00aff63/indicateurs%20sites%20web%20communaux%202010.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/ckan/2a8c6414-1523-4c5b-a2a0-ac59f00aff63/indicateurs%20sites%20web%20communaux%202010" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/ckan/71c5031f-c79f-4ece-a2c2-22e55144a74c/indicateurs%20sites%20web%20communaux%202010>
+  a dcat:Dataset ;
+  dc:title "ckan/71c5031f-c79f-4ece-a2c2-22e55144a74c/indicateurs sites web communaux 2010" ;
+  dc:description "Données collectées à l'automne 2009" ;
+  dc:identifier "ckan/71c5031f-c79f-4ece-a2c2-22e55144a74c/indicateurs%20sites%20web%20communaux%202010" ;
+  dc:issued "2014-01-27T10:15:16+0000" ;
+  dc:modified "2014-01-27T10:15:16+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/ckan/71c5031f-c79f-4ece-a2c2-22e55144a74c/indicateurs%20sites%20web%20communaux%202010.json> .
+
+<http://demo.thedatatank.com/ckan/71c5031f-c79f-4ece-a2c2-22e55144a74c/indicateurs%20sites%20web%20communaux%202010.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/ckan/71c5031f-c79f-4ece-a2c2-22e55144a74c/indicateurs%20sites%20web%20communaux%202010" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/ckan/418cb26b-5106-4b09-b845-28c519e15cb6/indicateurs%20sites%20web%20communaux%202012>
+  a dcat:Dataset ;
+  dc:title "ckan/418cb26b-5106-4b09-b845-28c519e15cb6/indicateurs sites web communaux 2012" ;
+  dc:description "Données collectées à l'automne 2011" ;
+  dc:identifier "ckan/418cb26b-5106-4b09-b845-28c519e15cb6/indicateurs%20sites%20web%20communaux%202012" ;
+  dc:issued "2014-01-27T10:15:17+0000" ;
+  dc:modified "2014-01-27T10:15:17+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/ckan/418cb26b-5106-4b09-b845-28c519e15cb6/indicateurs%20sites%20web%20communaux%202012.json> .
+
+<http://demo.thedatatank.com/ckan/418cb26b-5106-4b09-b845-28c519e15cb6/indicateurs%20sites%20web%20communaux%202012.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/ckan/418cb26b-5106-4b09-b845-28c519e15cb6/indicateurs%20sites%20web%20communaux%202012" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/ckan/bb59152b-bd50-478c-94cc-ce9b120f3f06/indicateurs%20citoyens%202013>
+  a dcat:Dataset ;
+  dc:title "ckan/bb59152b-bd50-478c-94cc-ce9b120f3f06/indicateurs citoyens 2013" ;
+  dc:description "Données collectées en décembre 2012" ;
+  dc:identifier "ckan/bb59152b-bd50-478c-94cc-ce9b120f3f06/indicateurs%20citoyens%202013" ;
+  dc:issued "2014-01-27T10:16:06+0000" ;
+  dc:modified "2014-01-27T10:16:06+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/ckan/bb59152b-bd50-478c-94cc-ce9b120f3f06/indicateurs%20citoyens%202013.json> .
+
+<http://demo.thedatatank.com/ckan/bb59152b-bd50-478c-94cc-ce9b120f3f06/indicateurs%20citoyens%202013.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/ckan/bb59152b-bd50-478c-94cc-ce9b120f3f06/indicateurs%20citoyens%202013" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/ckan/4ce9756b-e8d6-4cc8-913b-2c2019a57729/indicateurs%20citoyens%202012>
+  a dcat:Dataset ;
+  dc:title "ckan/4ce9756b-e8d6-4cc8-913b-2c2019a57729/indicateurs citoyens 2012" ;
+  dc:description "Données collectées en novembre 2011" ;
+  dc:identifier "ckan/4ce9756b-e8d6-4cc8-913b-2c2019a57729/indicateurs%20citoyens%202012" ;
+  dc:issued "2014-01-27T10:16:07+0000" ;
+  dc:modified "2014-01-27T10:16:07+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/ckan/4ce9756b-e8d6-4cc8-913b-2c2019a57729/indicateurs%20citoyens%202012.json> .
+
+<http://demo.thedatatank.com/ckan/4ce9756b-e8d6-4cc8-913b-2c2019a57729/indicateurs%20citoyens%202012.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/ckan/4ce9756b-e8d6-4cc8-913b-2c2019a57729/indicateurs%20citoyens%202012" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/ckan/a64c982b-9209-4591-8881-5afbe725f5c3/indicateurs%20citoyens%202013>
+  a dcat:Dataset ;
+  dc:title "ckan/a64c982b-9209-4591-8881-5afbe725f5c3/indicateurs citoyens 2013" ;
+  dc:description "Données collectées en décembre 2012" ;
+  dc:identifier "ckan/a64c982b-9209-4591-8881-5afbe725f5c3/indicateurs%20citoyens%202013" ;
+  dc:issued "2014-01-27T10:16:13+0000" ;
+  dc:modified "2014-01-27T10:16:13+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/ckan/a64c982b-9209-4591-8881-5afbe725f5c3/indicateurs%20citoyens%202013.json> .
+
+<http://demo.thedatatank.com/ckan/a64c982b-9209-4591-8881-5afbe725f5c3/indicateurs%20citoyens%202013.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/ckan/a64c982b-9209-4591-8881-5afbe725f5c3/indicateurs%20citoyens%202013" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/ckan/8e97e4d3-cb04-45f2-aa2f-ab9c685550c9/indicateurs%20citoyens%202012>
+  a dcat:Dataset ;
+  dc:title "ckan/8e97e4d3-cb04-45f2-aa2f-ab9c685550c9/indicateurs citoyens 2012" ;
+  dc:description "Données collectées en novembre 2011" ;
+  dc:identifier "ckan/8e97e4d3-cb04-45f2-aa2f-ab9c685550c9/indicateurs%20citoyens%202012" ;
+  dc:issued "2014-01-27T10:16:13+0000" ;
+  dc:modified "2014-01-27T10:16:13+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/ckan/8e97e4d3-cb04-45f2-aa2f-ab9c685550c9/indicateurs%20citoyens%202012.json> .
+
+<http://demo.thedatatank.com/ckan/8e97e4d3-cb04-45f2-aa2f-ab9c685550c9/indicateurs%20citoyens%202012.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/ckan/8e97e4d3-cb04-45f2-aa2f-ab9c685550c9/indicateurs%20citoyens%202012" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/ckan/0099a34d-03fb-441f-96c6-1f42b77eabeb/indicateurs%20éducation%202013>
+  a dcat:Dataset ;
+  dc:title "ckan/0099a34d-03fb-441f-96c6-1f42b77eabeb/indicateurs éducation 2013" ;
+  dc:description "Données collectées en mars 2013" ;
+  dc:identifier "ckan/0099a34d-03fb-441f-96c6-1f42b77eabeb/indicateurs%20éducation%202013" ;
+  dc:issued "2014-01-27T10:20:24+0000" ;
+  dc:modified "2014-01-27T10:20:24+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/ckan/0099a34d-03fb-441f-96c6-1f42b77eabeb/indicateurs%20éducation%202013.json> .
+
+<http://demo.thedatatank.com/ckan/0099a34d-03fb-441f-96c6-1f42b77eabeb/indicateurs%20éducation%202013.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/ckan/0099a34d-03fb-441f-96c6-1f42b77eabeb/indicateurs%20éducation%202013" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/ckan/4c172df1-07a3-4e23-9645-54b4a73eadfd/indicateurs%20éducation%202013>
+  a dcat:Dataset ;
+  dc:title "ckan/4c172df1-07a3-4e23-9645-54b4a73eadfd/indicateurs éducation 2013" ;
+  dc:description "Données collectées en mars 2013" ;
+  dc:identifier "ckan/4c172df1-07a3-4e23-9645-54b4a73eadfd/indicateurs%20éducation%202013" ;
+  dc:issued "2014-01-27T10:20:24+0000" ;
+  dc:modified "2014-01-27T10:20:24+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/ckan/4c172df1-07a3-4e23-9645-54b4a73eadfd/indicateurs%20éducation%202013.json> .
+
+<http://demo.thedatatank.com/ckan/4c172df1-07a3-4e23-9645-54b4a73eadfd/indicateurs%20éducation%202013.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/ckan/4c172df1-07a3-4e23-9645-54b4a73eadfd/indicateurs%20éducation%202013" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/ckan/38d75d17-7167-4bf7-a532-025ee6d9040c/indicateurs%20éducation%202010>
+  a dcat:Dataset ;
+  dc:title "ckan/38d75d17-7167-4bf7-a532-025ee6d9040c/indicateurs éducation 2010" ;
+  dc:description "Données collectées en décembre 2009" ;
+  dc:identifier "ckan/38d75d17-7167-4bf7-a532-025ee6d9040c/indicateurs%20éducation%202010" ;
+  dc:issued "2014-01-27T10:20:30+0000" ;
+  dc:modified "2014-01-27T10:20:30+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/ckan/38d75d17-7167-4bf7-a532-025ee6d9040c/indicateurs%20éducation%202010.json> .
+
+<http://demo.thedatatank.com/ckan/38d75d17-7167-4bf7-a532-025ee6d9040c/indicateurs%20éducation%202010.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/ckan/38d75d17-7167-4bf7-a532-025ee6d9040c/indicateurs%20éducation%202010" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/ckan/a673eeed-0c06-4632-bc69-543509044449/indicateurs%20éducation%202010>
+  a dcat:Dataset ;
+  dc:title "ckan/a673eeed-0c06-4632-bc69-543509044449/indicateurs éducation 2010" ;
+  dc:description "Données collectées en décembre 2009" ;
+  dc:identifier "ckan/a673eeed-0c06-4632-bc69-543509044449/indicateurs%20éducation%202010" ;
+  dc:issued "2014-01-27T10:20:31+0000" ;
+  dc:modified "2014-01-27T10:20:31+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/ckan/a673eeed-0c06-4632-bc69-543509044449/indicateurs%20éducation%202010.json> .
+
+<http://demo.thedatatank.com/ckan/a673eeed-0c06-4632-bc69-543509044449/indicateurs%20éducation%202010.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/ckan/a673eeed-0c06-4632-bc69-543509044449/indicateurs%20éducation%202010" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/ckan/f815e808-f5d1-4d92-a4f6-c1dce6e84608/indicateurs%20ménages%202012>
+  a dcat:Dataset ;
+  dc:title "ckan/f815e808-f5d1-4d92-a4f6-c1dce6e84608/indicateurs ménages 2012" ;
+  dc:description "Données collectées en novembre 2011" ;
+  dc:identifier "ckan/f815e808-f5d1-4d92-a4f6-c1dce6e84608/indicateurs%20ménages%202012" ;
+  dc:issued "2014-01-27T10:37:24+0000" ;
+  dc:modified "2014-01-27T10:37:24+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/ckan/f815e808-f5d1-4d92-a4f6-c1dce6e84608/indicateurs%20ménages%202012.json> .
+
+<http://demo.thedatatank.com/ckan/f815e808-f5d1-4d92-a4f6-c1dce6e84608/indicateurs%20ménages%202012.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/ckan/f815e808-f5d1-4d92-a4f6-c1dce6e84608/indicateurs%20ménages%202012" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/ckan/59d86abf-f8c1-454e-974e-0f58ece9a043/indicateurs%20ménages%202013>
+  a dcat:Dataset ;
+  dc:title "ckan/59d86abf-f8c1-454e-974e-0f58ece9a043/indicateurs ménages 2013" ;
+  dc:description "Données collectées en décembre 2012" ;
+  dc:identifier "ckan/59d86abf-f8c1-454e-974e-0f58ece9a043/indicateurs%20ménages%202013" ;
+  dc:issued "2014-01-27T10:37:25+0000" ;
+  dc:modified "2014-01-27T10:37:25+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/ckan/59d86abf-f8c1-454e-974e-0f58ece9a043/indicateurs%20ménages%202013.json> .
+
+<http://demo.thedatatank.com/ckan/59d86abf-f8c1-454e-974e-0f58ece9a043/indicateurs%20ménages%202013.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/ckan/59d86abf-f8c1-454e-974e-0f58ece9a043/indicateurs%20ménages%202013" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/ckan/78ba34b2-0a39-468d-b1dc-85293e4da6de/indicateurs%20ménages%202012>
+  a dcat:Dataset ;
+  dc:title "ckan/78ba34b2-0a39-468d-b1dc-85293e4da6de/indicateurs ménages 2012" ;
+  dc:description "Données collectées en novembre 2011" ;
+  dc:identifier "ckan/78ba34b2-0a39-468d-b1dc-85293e4da6de/indicateurs%20ménages%202012" ;
+  dc:issued "2014-01-27T10:37:26+0000" ;
+  dc:modified "2014-01-27T10:37:26+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/ckan/78ba34b2-0a39-468d-b1dc-85293e4da6de/indicateurs%20ménages%202012.json> .
+
+<http://demo.thedatatank.com/ckan/78ba34b2-0a39-468d-b1dc-85293e4da6de/indicateurs%20ménages%202012.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/ckan/78ba34b2-0a39-468d-b1dc-85293e4da6de/indicateurs%20ménages%202012" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/ckan/9411ecac-6d87-47f1-a8d7-0b1188a7265b/indicateurs%20tic%20entreprises%202012>
+  a dcat:Dataset ;
+  dc:title "ckan/9411ecac-6d87-47f1-a8d7-0b1188a7265b/indicateurs tic entreprises 2012" ;
+  dc:description "Données collectées en novembre 2011" ;
+  dc:identifier "ckan/9411ecac-6d87-47f1-a8d7-0b1188a7265b/indicateurs%20tic%20entreprises%202012" ;
+  dc:issued "2014-01-27T10:38:33+0000" ;
+  dc:modified "2014-01-27T10:38:33+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/ckan/9411ecac-6d87-47f1-a8d7-0b1188a7265b/indicateurs%20tic%20entreprises%202012.json> .
+
+<http://demo.thedatatank.com/ckan/9411ecac-6d87-47f1-a8d7-0b1188a7265b/indicateurs%20tic%20entreprises%202012.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/ckan/9411ecac-6d87-47f1-a8d7-0b1188a7265b/indicateurs%20tic%20entreprises%202012" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/ckan/0ae55f4d-7e11-4356-abad-4c19aa4152d8/indicateurs%20tic%20entreprises%202013>
+  a dcat:Dataset ;
+  dc:title "ckan/0ae55f4d-7e11-4356-abad-4c19aa4152d8/indicateurs tic entreprises 2013" ;
+  dc:description "Données collectées en février 2013" ;
+  dc:identifier "ckan/0ae55f4d-7e11-4356-abad-4c19aa4152d8/indicateurs%20tic%20entreprises%202013" ;
+  dc:issued "2014-01-27T10:38:34+0000" ;
+  dc:modified "2014-01-27T10:38:34+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/ckan/0ae55f4d-7e11-4356-abad-4c19aa4152d8/indicateurs%20tic%20entreprises%202013.json> .
+
+<http://demo.thedatatank.com/ckan/0ae55f4d-7e11-4356-abad-4c19aa4152d8/indicateurs%20tic%20entreprises%202013.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/ckan/0ae55f4d-7e11-4356-abad-4c19aa4152d8/indicateurs%20tic%20entreprises%202013" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/ckan/c1223fbc-5231-4c57-88ba-86ce8fc51d03/indicateurs%20tic%20entreprises%202013>
+  a dcat:Dataset ;
+  dc:title "ckan/c1223fbc-5231-4c57-88ba-86ce8fc51d03/indicateurs tic entreprises 2013" ;
+  dc:description "Données collectées en février 2013" ;
+  dc:identifier "ckan/c1223fbc-5231-4c57-88ba-86ce8fc51d03/indicateurs%20tic%20entreprises%202013" ;
+  dc:issued "2014-01-27T10:38:35+0000" ;
+  dc:modified "2014-01-27T10:38:35+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/ckan/c1223fbc-5231-4c57-88ba-86ce8fc51d03/indicateurs%20tic%20entreprises%202013.json> .
+
+<http://demo.thedatatank.com/ckan/c1223fbc-5231-4c57-88ba-86ce8fc51d03/indicateurs%20tic%20entreprises%202013.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/ckan/c1223fbc-5231-4c57-88ba-86ce8fc51d03/indicateurs%20tic%20entreprises%202013" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/un/cofog>
+  a dcat:Dataset ;
+  dc:title "un/cofog" ;
+  dc:description "Classification Of the Functions Of Government (cofog)" ;
+  dc:identifier "un/cofog" ;
+  dc:issued "2014-02-03T08:30:34+0000" ;
+  dc:modified "2014-02-03T08:33:08+0000" ;
+  dc:source <http://datahub.io/dataset/cofog/resource/c4267c00-6477-4119-885f-08d1cafda67a> ;
+  dc:date "1999-01-01" ;
+  dc:language <http://lexvo.org/id/iso639-3/eng> ;
+  dcat:distribution <http://demo.thedatatank.com/un/cofog.json> .
+
+<http://demo.thedatatank.com/un/cofog.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/un/cofog" ;
+  dc:mediaType "application/json" ;
+  dc:license <http://www.opendefinition.org/licenses/odc-pddl> .
+
+<http://www.opendefinition.org/licenses/odc-pddl> a dc:LicenseDocument .
+<http://demo.thedatatank.com/openbelgium/ec91e153-0f3a-46b8-bc22-27f2fe000943>
+  a dcat:Dataset ;
+  dc:title "openbelgium/ec91e153-0f3a-46b8-bc22-27f2fe000943" ;
+  dc:description "All railway stations in Belgium " ;
+  dc:identifier "openbelgium/ec91e153-0f3a-46b8-bc22-27f2fe000943" ;
+  dc:issued "2014-02-16T11:47:23+0000" ;
+  dc:modified "2014-02-16T11:47:23+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/openbelgium/ec91e153-0f3a-46b8-bc22-27f2fe000943.json> .
+
+<http://demo.thedatatank.com/openbelgium/ec91e153-0f3a-46b8-bc22-27f2fe000943.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/openbelgium/ec91e153-0f3a-46b8-bc22-27f2fe000943" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/openbelgium/ff3de40d-0305-4b77-a367-97bf1aa6c72e>
+  a dcat:Dataset ;
+  dc:title "openbelgium/ff3de40d-0305-4b77-a367-97bf1aa6c72e" ;
+  dc:description "Parking data in Gent " ;
+  dc:identifier "openbelgium/ff3de40d-0305-4b77-a367-97bf1aa6c72e" ;
+  dc:issued "2014-02-16T11:47:28+0000" ;
+  dc:modified "2014-02-16T11:47:28+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/openbelgium/ff3de40d-0305-4b77-a367-97bf1aa6c72e.json> .
+
+<http://demo.thedatatank.com/openbelgium/ff3de40d-0305-4b77-a367-97bf1aa6c72e.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/openbelgium/ff3de40d-0305-4b77-a367-97bf1aa6c72e" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/openbelgium/9411ecac-6d87-47f1-a8d7-0b1188a7265b>
+  a dcat:Dataset ;
+  dc:title "openbelgium/9411ecac-6d87-47f1-a8d7-0b1188a7265b" ;
+  dc:description "Données collectées en novembre 2011 " ;
+  dc:identifier "openbelgium/9411ecac-6d87-47f1-a8d7-0b1188a7265b" ;
+  dc:issued "2014-02-18T16:01:49+0000" ;
+  dc:modified "2014-02-18T16:01:49+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/openbelgium/9411ecac-6d87-47f1-a8d7-0b1188a7265b.json> .
+
+<http://demo.thedatatank.com/openbelgium/9411ecac-6d87-47f1-a8d7-0b1188a7265b.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/openbelgium/9411ecac-6d87-47f1-a8d7-0b1188a7265b" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/okfn/census>
+  a dcat:Dataset ;
+  dc:title "okfn/census" ;
+  dc:description "The Open Data Index assesses the state of open government data around the world." ;
+  dc:identifier "okfn/census" ;
+  dc:issued "2014-02-23T08:51:54+0000", "2014-02-23T08:51:58+0000" ;
+  dc:modified "2014-02-23T08:51:54+0000", "2014-02-23T08:51:58+0000" ;
+  dc:date "2014-02-23" ;
+  dc:language <http://lexvo.org/id/iso639-3/eng> ;
+  dcat:distribution <http://demo.thedatatank.com/okfn/census.json> .
+
+<http://demo.thedatatank.com/okfn/census.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/okfn/census" ;
+  dc:mediaType "application/json" ;
+  dc:license <http://www.opendefinition.org/licenses/odc-pddl> .
+
+<http://demo.thedatatank.com/openbelgium/a5bc6b22-a22d-4843-a55c-99b9463a2951>
+  a dcat:Dataset ;
+  dc:title "openbelgium/a5bc6b22-a22d-4843-a55c-99b9463a2951" ;
+  dc:description "some description" ;
+  dc:identifier "openbelgium/a5bc6b22-a22d-4843-a55c-99b9463a2951" ;
+  dc:issued "2014-03-06T09:25:42+0000" ;
+  dc:modified "2014-03-06T09:25:42+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/openbelgium/a5bc6b22-a22d-4843-a55c-99b9463a2951.json> .
+
+<http://demo.thedatatank.com/openbelgium/a5bc6b22-a22d-4843-a55c-99b9463a2951.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/openbelgium/a5bc6b22-a22d-4843-a55c-99b9463a2951" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/openbelgium/c8f61eea-c953-4416-9ad4-7bed2b7c7f5a>
+  a dcat:Dataset ;
+  dc:title "openbelgium/c8f61eea-c953-4416-9ad4-7bed2b7c7f5a" ;
+  dc:description "description" ;
+  dc:identifier "openbelgium/c8f61eea-c953-4416-9ad4-7bed2b7c7f5a" ;
+  dc:issued "2014-03-06T09:25:48+0000" ;
+  dc:modified "2014-03-06T09:25:48+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/openbelgium/c8f61eea-c953-4416-9ad4-7bed2b7c7f5a.json> .
+
+<http://demo.thedatatank.com/openbelgium/c8f61eea-c953-4416-9ad4-7bed2b7c7f5a.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/openbelgium/c8f61eea-c953-4416-9ad4-7bed2b7c7f5a" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/openbelgium/1ab43b94-6436-49d4-b8cc-3a2ca0db6f81>
+  a dcat:Dataset ;
+  dc:title "openbelgium/1ab43b94-6436-49d4-b8cc-3a2ca0db6f81" ;
+  dc:description "No description provided" ;
+  dc:identifier "openbelgium/1ab43b94-6436-49d4-b8cc-3a2ca0db6f81" ;
+  dc:issued "2014-03-06T09:26:05+0000" ;
+  dc:modified "2014-03-06T09:26:05+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/openbelgium/1ab43b94-6436-49d4-b8cc-3a2ca0db6f81.json> .
+
+<http://demo.thedatatank.com/openbelgium/1ab43b94-6436-49d4-b8cc-3a2ca0db6f81.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/openbelgium/1ab43b94-6436-49d4-b8cc-3a2ca0db6f81" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/openbelgium/8c463112-5644-4082-8ee3-525ef23aa65d>
+  a dcat:Dataset ;
+  dc:title "openbelgium/8c463112-5644-4082-8ee3-525ef23aa65d" ;
+  dc:description "No description provided" ;
+  dc:identifier "openbelgium/8c463112-5644-4082-8ee3-525ef23aa65d" ;
+  dc:issued "2014-03-06T09:26:13+0000" ;
+  dc:modified "2014-03-06T09:26:13+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/openbelgium/8c463112-5644-4082-8ee3-525ef23aa65d.json> .
+
+<http://demo.thedatatank.com/openbelgium/8c463112-5644-4082-8ee3-525ef23aa65d.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/openbelgium/8c463112-5644-4082-8ee3-525ef23aa65d" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/openbelgium/db67e9e5-985f-4b64-a8c7-6221ab232e1b>
+  a dcat:Dataset ;
+  dc:title "openbelgium/db67e9e5-985f-4b64-a8c7-6221ab232e1b" ;
+  dc:description "No description provided" ;
+  dc:identifier "openbelgium/db67e9e5-985f-4b64-a8c7-6221ab232e1b" ;
+  dc:issued "2014-03-06T09:26:24+0000" ;
+  dc:modified "2014-03-06T09:26:24+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/openbelgium/db67e9e5-985f-4b64-a8c7-6221ab232e1b.json> .
+
+<http://demo.thedatatank.com/openbelgium/db67e9e5-985f-4b64-a8c7-6221ab232e1b.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/openbelgium/db67e9e5-985f-4b64-a8c7-6221ab232e1b" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/openbelgium/3e238b91-2e6e-44d4-bf78-e738440cf7e5>
+  a dcat:Dataset ;
+  dc:title "openbelgium/3e238b91-2e6e-44d4-bf78-e738440cf7e5" ;
+  dc:description "test" ;
+  dc:identifier "openbelgium/3e238b91-2e6e-44d4-bf78-e738440cf7e5" ;
+  dc:issued "2014-03-06T09:26:46+0000" ;
+  dc:modified "2014-03-06T09:26:46+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/openbelgium/3e238b91-2e6e-44d4-bf78-e738440cf7e5.json> .
+
+<http://demo.thedatatank.com/openbelgium/3e238b91-2e6e-44d4-bf78-e738440cf7e5.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/openbelgium/3e238b91-2e6e-44d4-bf78-e738440cf7e5" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/openbelgium/9991a1d2-1f3e-4c62-ae81-9c73b29f1f21>
+  a dcat:Dataset ;
+  dc:title "openbelgium/9991a1d2-1f3e-4c62-ae81-9c73b29f1f21" ;
+  dc:description "gegevens lier" ;
+  dc:identifier "openbelgium/9991a1d2-1f3e-4c62-ae81-9c73b29f1f21" ;
+  dc:issued "2014-03-06T09:26:59+0000" ;
+  dc:modified "2014-03-06T09:26:59+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/openbelgium/9991a1d2-1f3e-4c62-ae81-9c73b29f1f21.json> .
+
+<http://demo.thedatatank.com/openbelgium/9991a1d2-1f3e-4c62-ae81-9c73b29f1f21.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/openbelgium/9991a1d2-1f3e-4c62-ae81-9c73b29f1f21" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/openbelgium/dfdafab1-92e4-45d0-8971-6ab6af346e1c>
+  a dcat:Dataset ;
+  dc:title "openbelgium/dfdafab1-92e4-45d0-8971-6ab6af346e1c" ;
+  dc:description "No description provided" ;
+  dc:identifier "openbelgium/dfdafab1-92e4-45d0-8971-6ab6af346e1c" ;
+  dc:issued "2014-03-06T09:27:11+0000" ;
+  dc:modified "2014-03-06T09:27:11+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/openbelgium/dfdafab1-92e4-45d0-8971-6ab6af346e1c.json> .
+
+<http://demo.thedatatank.com/openbelgium/dfdafab1-92e4-45d0-8971-6ab6af346e1c.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/openbelgium/dfdafab1-92e4-45d0-8971-6ab6af346e1c" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/openbelgium/4e4b7130-ccda-4e13-b23a-f5be6fb044f0>
+  a dcat:Dataset ;
+  dc:title "openbelgium/4e4b7130-ccda-4e13-b23a-f5be6fb044f0" ;
+  dc:description "No description provided" ;
+  dc:identifier "openbelgium/4e4b7130-ccda-4e13-b23a-f5be6fb044f0" ;
+  dc:issued "2014-03-06T09:27:12+0000" ;
+  dc:modified "2014-03-06T09:27:12+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/openbelgium/4e4b7130-ccda-4e13-b23a-f5be6fb044f0.json> .
+
+<http://demo.thedatatank.com/openbelgium/4e4b7130-ccda-4e13-b23a-f5be6fb044f0.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/openbelgium/4e4b7130-ccda-4e13-b23a-f5be6fb044f0" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/openbelgium/a54f2b68-b54e-4f6a-8503-9d5eb9068e4f>
+  a dcat:Dataset ;
+  dc:title "openbelgium/a54f2b68-b54e-4f6a-8503-9d5eb9068e4f" ;
+  dc:description "TMC datapoints" ;
+  dc:identifier "openbelgium/a54f2b68-b54e-4f6a-8503-9d5eb9068e4f" ;
+  dc:issued "2014-03-06T09:27:29+0000" ;
+  dc:modified "2014-03-06T09:27:29+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/openbelgium/a54f2b68-b54e-4f6a-8503-9d5eb9068e4f.json> .
+
+<http://demo.thedatatank.com/openbelgium/a54f2b68-b54e-4f6a-8503-9d5eb9068e4f.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/openbelgium/a54f2b68-b54e-4f6a-8503-9d5eb9068e4f" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/openbelgium/7a3e6c3e-bc33-4f71-a88f-b49fa04caf69>
+  a dcat:Dataset ;
+  dc:title "openbelgium/7a3e6c3e-bc33-4f71-a88f-b49fa04caf69" ;
+  dc:description "TMC data, only x,y coordinates (xml format)" ;
+  dc:identifier "openbelgium/7a3e6c3e-bc33-4f71-a88f-b49fa04caf69" ;
+  dc:issued "2014-03-06T09:27:30+0000" ;
+  dc:modified "2014-03-06T09:27:30+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/openbelgium/7a3e6c3e-bc33-4f71-a88f-b49fa04caf69.json> .
+
+<http://demo.thedatatank.com/openbelgium/7a3e6c3e-bc33-4f71-a88f-b49fa04caf69.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/openbelgium/7a3e6c3e-bc33-4f71-a88f-b49fa04caf69" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/openbelgium/f7b2b163-9c19-4e05-961a-c318f3d68360>
+  a dcat:Dataset ;
+  dc:title "openbelgium/f7b2b163-9c19-4e05-961a-c318f3d68360" ;
+  dc:description "No description provided" ;
+  dc:identifier "openbelgium/f7b2b163-9c19-4e05-961a-c318f3d68360" ;
+  dc:issued "2014-03-06T09:27:47+0000" ;
+  dc:modified "2014-03-06T09:27:47+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/openbelgium/f7b2b163-9c19-4e05-961a-c318f3d68360.json> .
+
+<http://demo.thedatatank.com/openbelgium/f7b2b163-9c19-4e05-961a-c318f3d68360.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/openbelgium/f7b2b163-9c19-4e05-961a-c318f3d68360" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/openbelgium/7a191550-71b1-4f42-96aa-629a6e10e055>
+  a dcat:Dataset ;
+  dc:title "openbelgium/7a191550-71b1-4f42-96aa-629a6e10e055" ;
+  dc:description ""Here you find the XML-file detailing the parking-information of the city of Ghent.
+"" ;
+  dc:identifier "openbelgium/7a191550-71b1-4f42-96aa-629a6e10e055" ;
+  dc:issued "2014-03-06T09:27:54+0000" ;
+  dc:modified "2014-03-06T09:27:54+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/openbelgium/7a191550-71b1-4f42-96aa-629a6e10e055.json> .
+
+<http://demo.thedatatank.com/openbelgium/7a191550-71b1-4f42-96aa-629a6e10e055.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/openbelgium/7a191550-71b1-4f42-96aa-629a6e10e055" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/openflights/airlines>
+  a dcat:Dataset ;
+  dc:title "openflights/airlines" ;
+  dc:description "Airlines in the world" ;
+  dc:identifier "openflights/airlines" ;
+  dc:issued "2014-03-28T11:24:44+0000" ;
+  dc:modified "2014-03-28T11:24:44+0000" ;
+  dc:source <http://sourceforge.net/p/openflights/code/HEAD/tree/openflights/data/airlines.dat> ;
+  dc:language <http://lexvo.org/id/iso639-3/eng> ;
+  dcat:distribution <http://demo.thedatatank.com/openflights/airlines.json> .
+
+<http://demo.thedatatank.com/openflights/airlines.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/openflights/airlines" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/openbelgium/b028b040-7dbf-4d8a-97e6-ac3aabe66a5d>
+  a dcat:Dataset ;
+  dc:title "openbelgium/b028b040-7dbf-4d8a-97e6-ac3aabe66a5d" ;
+  dc:description "All parking lots in Kortrijk in the ITS PS XML format" ;
+  dc:identifier "openbelgium/b028b040-7dbf-4d8a-97e6-ac3aabe66a5d" ;
+  dc:issued "2014-04-25T09:00:51+0000" ;
+  dc:modified "2014-04-25T09:00:51+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/openbelgium/b028b040-7dbf-4d8a-97e6-ac3aabe66a5d.json> .
+
+<http://demo.thedatatank.com/openbelgium/b028b040-7dbf-4d8a-97e6-ac3aabe66a5d.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/openbelgium/b028b040-7dbf-4d8a-97e6-ac3aabe66a5d" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/railways/stations>
+  a dcat:Dataset ;
+  dc:title "railways/stations" ;
+  dc:description "Demo RDF file" ;
+  dc:identifier "railways/stations" ;
+  dc:issued "2014-05-22T13:17:03+0000" ;
+  dc:modified "2014-05-22T13:17:03+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/railways/stations.json> .
+
+<http://demo.thedatatank.com/railways/stations.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/railways/stations" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/wikipedia/nmbs/stations>
+  a dcat:Dataset ;
+  dc:title "wikipedia/nmbs/stations" ;
+  dc:description "A list of stations owned by the NMBS in Belgium with a wikipedia page" ;
+  dc:identifier "wikipedia/nmbs/stations" ;
+  dc:issued "2014-05-23T14:59:56+0000" ;
+  dc:modified "2014-05-23T14:59:56+0000" ;
+  dc:source <http://dbpedia.org/sparql> ;
+  dc:language <http://lexvo.org/id/iso639-3/eng> ;
+  dcat:distribution <http://demo.thedatatank.com/wikipedia/nmbs/stations.json> .
+
+<http://demo.thedatatank.com/wikipedia/nmbs/stations.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/wikipedia/nmbs/stations" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/dbpedia/stations>
+  a dcat:Dataset ;
+  dc:title "dbpedia/stations" ;
+  dc:description "All stations in the world which have a wikipedia page" ;
+  dc:identifier "dbpedia/stations" ;
+  dc:issued "2014-05-29T10:39:32+0000" ;
+  dc:modified "2014-05-29T10:39:32+0000" ;
+  dc:language <http://lexvo.org/id/iso639-3/eng> ;
+  dcat:distribution <http://demo.thedatatank.com/dbpedia/stations.json> .
+
+<http://demo.thedatatank.com/dbpedia/stations.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/dbpedia/stations" ;
+  dc:mediaType "application/json" ;
+  dc:license <http://www.opendefinition.org/licenses/cc-by-sa> .
+
+<http://demo.thedatatank.com/openbelgium/d48011dc-93a2-4239-aad3-fd294d474cb1>
+  a dcat:Dataset ;
+  dc:title "openbelgium/d48011dc-93a2-4239-aad3-fd294d474cb1" ;
+  dc:description "No description provided" ;
+  dc:identifier "openbelgium/d48011dc-93a2-4239-aad3-fd294d474cb1" ;
+  dc:issued "2014-05-29T12:27:52+0000" ;
+  dc:modified "2014-05-29T12:27:52+0000" ;
+  dcat:distribution <http://demo.thedatatank.com/openbelgium/d48011dc-93a2-4239-aad3-fd294d474cb1.json> .
+
+<http://demo.thedatatank.com/openbelgium/d48011dc-93a2-4239-aad3-fd294d474cb1.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/openbelgium/d48011dc-93a2-4239-aad3-fd294d474cb1" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/villo/availability>
+  a dcat:Dataset ;
+  dc:title "villo/availability" ;
+  dc:description "Locatie van de Villo!-stations in het Brussels Hoofdstedelijk Gewest met indicatie van de beschikbaarheid (fietsen, fietspalen) in real time." ;
+  dc:identifier "villo/availability" ;
+  dc:issued "2014-07-01T12:19:18+0000" ;
+  dc:modified "2014-07-01T12:19:18+0000" ;
+  dc:source <http://opendata.brussel.be/explore/dataset/villo-stations-beschikbaarheid-in-real-time/> ;
+  dc:date "2014-07-01" ;
+  dc:language <http://lexvo.org/id/iso639-3/eng> ;
+  dcat:distribution <http://demo.thedatatank.com/villo/availability.json> .
+
+<http://demo.thedatatank.com/villo/availability.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/villo/availability" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/eandis/afschakelplan/westvlaanderen>
+  a dcat:Dataset ;
+  dc:title "eandis/afschakelplan/westvlaanderen" ;
+  dc:description "Het afschakelplan december 2014 voor West-Vlaanderen" ;
+  dc:identifier "eandis/afschakelplan/westvlaanderen" ;
+  dc:issued "2014-09-20T14:35:28+0000" ;
+  dc:modified "2014-09-20T15:01:37+0000" ;
+  dc:publisher <http://eandis.be> ;
+  dcat:keyword "afschakelplan", " elektriciteit", " België" ;
+  dc:date "2014-09-20" ;
+  dc:language <http://lexvo.org/id/iso639-3/nld> ;
+  dcat:distribution <http://demo.thedatatank.com/eandis/afschakelplan/westvlaanderen.json> .
+
+<http://eandis.be>
+  a foaf:Agent ;
+  foaf:name "EANDIS" .
+
+<http://lexvo.org/id/iso639-3/nld> a dc:LinguisticSystem .
+<http://demo.thedatatank.com/eandis/afschakelplan/westvlaanderen.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/eandis/afschakelplan/westvlaanderen" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/eandis/afschakelplan/oostvlaanderen>
+  a dcat:Dataset ;
+  dc:title "eandis/afschakelplan/oostvlaanderen" ;
+  dc:description "Afschakelplan Oost-Vlaanderen" ;
+  dc:identifier "eandis/afschakelplan/oostvlaanderen" ;
+  dc:issued "2014-09-20T14:58:03+0000" ;
+  dc:modified "2014-09-20T15:00:44+0000" ;
+  dcat:keyword "afschakelplan", "België", "eandis", "elektriciteit" ;
+  dc:language <http://lexvo.org/id/iso639-3/nld> ;
+  dcat:distribution <http://demo.thedatatank.com/eandis/afschakelplan/oostvlaanderen.json> .
+
+<http://demo.thedatatank.com/eandis/afschakelplan/oostvlaanderen.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/eandis/afschakelplan/oostvlaanderen" ;
+  dc:mediaType "application/json" .
+
+<http://demo.thedatatank.com/dcat/demo>
+  a dcat:Dataset ;
+  dc:title "Meta-data" ;
+  dc:description "Meta-data of all datasets within this catalogue structured using DCAT" ;
+  dc:identifier "dcat/demo" ;
+  dc:issued "2014-10-06T12:32:47+0000" ;
+  dc:modified "2014-10-06T12:32:47+0000" ;
+  dc:publisher <http://thedatatank.com/#organization> ;
+  dcat:keyword "dcat", " metadata", " demo" ;
+  dc:language <http://lexvo.org/id/iso639-3/eng> ;
+  dcat:distribution <http://demo.thedatatank.com/dcat/demo.json> .
+
+<http://demo.thedatatank.com/dcat/demo.json>
+  a dcat:Distribution ;
+  dc:description "A json feed of http://demo.thedatatank.com/dcat/demo" ;
+  dc:mediaType "application/json" ;
+  dc:license <http://www.opendefinition.org/licenses/cc-zero> .
+
