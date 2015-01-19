@@ -4,23 +4,40 @@ var cataloger = require('./lib/cataloger.js');
 var N3 = require('n3');
 
 var outputFile;
+var outputFileIndex;
+global.verbose = false;
+var errorMessage = "Incorrect parameter usage.";
+
+var badExit = function(){
+    console.log(errorMessage);
+    process.exit(1);
+}
+
 
 process.argv.forEach(function (val, index, array) {
-  	if (index === 2) {
+	if (val === "-o") {
+		if (outputFileIndex || index == array.length - 1) {
+			badExit();
+		} else {
+			outputFileIndex = index + 1;
+		}
+	} 
+
+	if (val === "-v") {
+		global.verbose = true;
+	}
+
+  	if (index === outputFileIndex) {
+		if (val === "-o" || val === "-v") {
+			badExit();
+		}
+
 		outputFile = val;
-		console.log(outputFile);
 	}
 });
 
 loader.load().then(function(store){
-	var cStore = cataloger.catalog(store);
-
-//	allTriples = cStore.find(null, null, null);
-
-//	console.log(allTriples.length);
-//	allTriples.forEach(function(triple){
-//		console.log(triple.subject);
-//	});
-
-	writer.write(cStore, outputFile);
+	cataloger.catalog(store, verbose).then(function(cStore){
+		writer.write(cStore, outputFile);
+	});
 });

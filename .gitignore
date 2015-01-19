@@ -30,3 +30,4 @@ node_modules
 inpm-debug.log
 
 test.ttl
+config_2.json

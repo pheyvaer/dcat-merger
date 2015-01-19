@@ -3,16 +3,6 @@
 				{
 					"name": "The DataTank",
 					"url": "http://demo.thedatatank.com/api/dcat"
-				},
-
-				{
-					"name": "Vlaanderen",
-					"url": "http://tdt.ckan-001.corve.prvw.eu/api/dcat"
-				},
-
-				{
-					"name" : "Open Data Institute",
-					"file" : "data/opendatainstitute.ttl"
 				}
 			]
 }
