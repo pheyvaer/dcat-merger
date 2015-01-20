@@ -4,7 +4,7 @@ This [Node.js](http://nodejs.org) application allows to merge the [DCAT](http://
 
 ### Installation ###
 
-- Install Node.js
+- Install [Node.js](http://nodejs.org)
 - Clone this repo
 - Navigate to the folder of the repo
 - Execute `npm install`
@@ -22,3 +22,9 @@ Output control
 *In the folder `data` you can find some example Turtle files.*
 
 ### License ###
+
+MIT licensed
+
+Authors:
+ * Pieter Heyvaert <pheyvaer.heyvaert@ugent.be>
+ * Pieter Colpaert <pieter.colpaert@ugent.be>
