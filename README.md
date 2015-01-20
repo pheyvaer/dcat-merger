@@ -21,4 +21,8 @@ Output control
 
 *In the folder `data` you can find some example Turtle files.*
 
+### Remarks ###
+
+- We use DBpedia spotlight to perform NER, however, there is a query limit. That's why we introduce random latency between requests to 'bypass' this. However, sometimes you might still get errors if the random latencies were not big enough.
+
 ### License ###

@@ -36,8 +36,14 @@ process.argv.forEach(function (val, index, array) {
 	}
 });
 
+console.log("Loading & parsing ... ");
 loader.load().then(function(store){
+	console.log("Loading & parsing ... done");
+	process.stdout.write("Cataloging ... ");
 	cataloger.catalog(store, verbose).then(function(cStore){
+		console.log("done");
+		process.stdout.write("Writing to '" + outputFile + "' ... ");
 		writer.write(cStore, outputFile);
+		console.log("done");
 	});
 });
