@@ -1,6 +1,6 @@
 ## DCAT Merger ##
 
-This [Node.js](http://nodejs.org) application allows to merge the [DCAT](http://www.w3.org/TR/vocab-dcat/) information of serveral sources into one single Turtle file.
+This [Node.js](http://nodejs.org) application allows to merge the [DCAT](http://www.w3.org/TR/vocab-dcat/) information of several sources into one single Turtle file.
 
 ### Installation ###
 
