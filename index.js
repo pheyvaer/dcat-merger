@@ -1,3 +1,6 @@
+global.verbose = false;
+global.maxTimeout = 20000.00;
+
 var loader = require('./lib/loader.js');
 var writer = require('./lib/writer.js');
 var cataloger = require('./lib/cataloger.js');
@@ -5,7 +8,6 @@ var N3 = require('n3');
 
 var outputFile;
 var outputFileIndex;
-global.verbose = false;
 var errorMessage = "Incorrect parameter usage.";
 
 var badExit = function(){
