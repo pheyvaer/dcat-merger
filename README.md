@@ -24,5 +24,6 @@ Output control
 ### Remarks ###
 
 - We use DBpedia spotlight to perform NER, however, there is a query limit. That's why we introduce random latency between requests to 'bypass' this. However, sometimes you might still get errors if the random latencies were not big enough.
+- To match the different concepts from DBpedia with those form the TDT/dcat taxonomy, we created a basic mapping between the two. Replacing themeMatcher.js with a custom implementation allows to inject your own dynamic/static mapping.
 
 ### License ###
