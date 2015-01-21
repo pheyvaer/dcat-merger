@@ -4,5 +4,7 @@
 					"name": "The DataTank",
 					"url": "http://demo.thedatatank.com/api/dcat"
 				}
-			]
+			],
+
+	"sparqlendpoint": "http://fragments.dbpedia.org/2014/en"
 }

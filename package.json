@@ -10,6 +10,7 @@
   "dependencies": {
     "colors": "^1.0.3",
     "dbpedia-spotlight": "^0.5.27",
+    "ldf-client": "^1.2.2",
     "n3": "^0.4.0",
     "path": "^0.11.14",
     "q": "^1.1.2",
