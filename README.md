@@ -36,5 +36,5 @@ Output control
 MIT licensed
 
 Authors:
- * Pieter Heyvaert <pheyvaer.heyvaert@ugent.be>
+ * Pieter Heyvaert <pheyvaer.heyvaert@ugent.be> - [@PHaDventure](http://www.twitter.com/PHaDventure)
  * Pieter Colpaert <pieter.colpaert@ugent.be>
