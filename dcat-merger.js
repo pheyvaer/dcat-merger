@@ -24,7 +24,7 @@ var badExit = function() {
 
 
 process.argv.forEach(function(val, index, array) {
-  if (!(index === 0 || (index === 1 && val === __dirname + "/index.js"))) {
+  if (!(index === 0 || index === 1)) {
     if (val === "-h" || val === "--help") {
       console.log(helpMessage);
       process.exit(0);

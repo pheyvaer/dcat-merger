@@ -28,6 +28,8 @@ Output control
 - We use DBpedia spotlight to perform NER, however, there is a query limit. That's why we introduce random latency between requests to 'bypass' this. However, sometimes you might still get errors if the random latencies were not big enough.
 - To match the different concepts from DBpedia with those form the TDT/dcat taxonomy, we created a basic mapping between the two. Replacing themeMatcher.js with a custom implementation allows to inject your own dynamic/static mapping.
 - To define the spatial property of a dataset, we created a spatialDetector.js. Based on the found resources (using NER), we determine if the resources point to a place/location etc. If you want to determine which types of classes are recognised as spatial, you can edit `resources/spatialConfig.js`.
+- At the moment, we do not copy the original [Catalog records](http://www.w3.org/TR/vocab-dcat/#class-catalog-record), neither do we create any records for the new catalog.
+- Tested on Ubuntu 14.04.
 
 ### License ###
 
