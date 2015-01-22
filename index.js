@@ -1,5 +1,4 @@
 global.verbose = false;
-global.maxTimeout = 1000.00;
 
 var loader = require('./lib/loader.js');
 var writer = require('./lib/writer.js');

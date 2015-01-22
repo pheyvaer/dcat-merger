@@ -1,19 +1,41 @@
 {
-	"sources": [
-				{
-					"name": "The DataTank",
-					"url": "http://demo.thedatatank.com/api/dcat"
-				}
-			],
+  "sources": [{
+    "name": "The DataTank",
+    "url": "http://demo.thedatatank.com/api/dcat"
+  }],
 
-	"sparqlendpoint": "http://fragments.dbpedia.org/2014/en",
-	"spotlightEndpoints": {
-		"english": {
-			"host": "spotlight.sztaki.hu",
-			"path": "/rest/annotate",
-			"port": 2222,
-			"confidence": 0,
-			"support": 0
-		}
-	}
+  "startFragment": "http://fragments.dbpedia.org/2014/en",
+
+  "spotlightEndpoints": {
+    "english": {
+      "host": "spotlight.sztaki.hu",
+      "path": "/rest/annotate",
+      "port": "2222",
+      "confidence": "0",
+      "support": "0"
+    },
+
+    "dutch": {
+      "host": "spotlight.sztaki.hu",
+      "path": "/rest/annotate",
+      "port": "2232",
+      "confidence": "0.5",
+      "support": "0"
+    }
+  },
+
+  "catalog": {
+    "baseURI": "http://www.example.com/api/dcat",
+    "title": "'Merged DCAT'",
+    "description": "'The result DCAT of the DCAT Merger.'",
+    "themeTaxonomy": "http://ns.thedatatank.com/dcat/themes#Taxonomy",
+    "issued": "",
+    "modified": "",
+    "language": "",
+    "license": "",
+    "rights": "",
+    "spatial": "",
+    "homepage": "http://www.example.com",
+  	"publisher" : ""
+  }
 }
