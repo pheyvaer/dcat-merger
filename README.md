@@ -12,7 +12,7 @@ This [Node.js](http://nodejs.org) application allows to merge the [DCAT](http://
 ### Usage ###
 
 - Edit `config.json` with the sources you want to merge. For every source you need to provide the name and the url or file. You want to choose the option 'file' if you want to read a local Turtle file. Here, you can also set the DBpedia spotlight instances you want to use for NER.
-- Execute `node index.js [OPTION]...`.
+- Execute `node dcat-merger.js [OPTION]...`.
 
 Output control
 
