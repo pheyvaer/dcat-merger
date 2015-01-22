@@ -16,8 +16,10 @@ This [Node.js](http://nodejs.org) application allows to merge the [DCAT](http://
 
 Output control
 
-- `-v`: verbose
-- `-o`: output file, if no output file is specified output is redirect to `stdout`.
+- `-v, --verbose`: verbose
+- `-o, --output`: output file, if no output file is specified output is redirect to `stdout`.
+- `-h`, `--help`: show help
+- `--version`: show version information
 
 *In the folder `data` you can find some example Turtle files.*
 
