@@ -38,14 +38,34 @@ process.argv.forEach(function (val, index, array) {
 	}
 });
 
-console.log("Loading & parsing ... ");
+console.log("Loading & parsing started ");
 loader.load().then(function(store){
-	console.log("Loading & parsing ... done");
-	process.stdout.write("Cataloging ... ");
+	console.log("Loading & parsing finished");
+
+	if (global.verbose) {
+		console.log("Cataloging started");
+	} else {
+		process.stdout.write("Cataloging ... ");
+	}
 	cataloger.catalog(store, verbose).then(function(cStore){
-		console.log("done");
-		process.stdout.write("Writing to '" + outputFile + "' ... ");
+		if (global.verbose) {
+			console.log("Cataloging finished");
+		} else {
+			console.log("done");
+		}
+
+		if (global.verbose) {
+			console.log("Writing to '" + outputFile + "' started");
+		} else {
+			process.stdout.write("Writing to '" + outputFile + "' ... ");
+		}
+
 		writer.write(cStore, outputFile);
-		console.log("done");
+
+		if (global.verbose) {
+			console.log("Writing to '" + outputFile + "' finished");
+		} else {
+			console.log("done");
+		}
 	});
 });

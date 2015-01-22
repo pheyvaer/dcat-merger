@@ -1,3 +1,4 @@
+
 # Logs
 logs
 *.log
@@ -31,3 +32,4 @@ inpm-debug.log
 
 test.ttl
 config_2.json
+config_custom_spotlight.json
