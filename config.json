@@ -4,5 +4,16 @@
 					"name": "The DataTank",
 					"url": "http://demo.thedatatank.com/api/dcat"
 				}
-			]
+			],
+
+	"sparqlendpoint": "http://fragments.dbpedia.org/2014/en",
+	"spotlightEndpoints": {
+		"english": {
+			"host": "spotlight.sztaki.hu",
+			"path": "/rest/annotate",
+			"port": 2222,
+			"confidence": 0,
+			"support": 0
+		}
+	}
 }
