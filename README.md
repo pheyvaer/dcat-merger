@@ -7,12 +7,24 @@ This [Node.js](http://nodejs.org) application allows to merge the [DCAT](http://
 - Install [Node.js](http://nodejs.org)
 - Clone this repo
 - Navigate to the folder of the repo
-- Execute `npm install`
+- Execute `npm install . -g`
 
 ### Usage ###
 
-- Edit `config.json` with the sources you want to merge. For every source you need to provide the name and the url or file. You want to choose the option 'file' if you want to read a local Turtle file. Here, you can also set the DBpedia spotlight instances you want to use for NER.
-- Execute `node dcat-merger.js [OPTION]...`.
+
+- Edit `config.json` with the sources you want to merge. For every source you need to provide the name and the url or file. You want to choose the option 'file' if you want to read a local Turtle file. Here, you can also set the DBpedia spotlight instances you want to use for NER. *In the folder `data` you can find some example Turtle files.*
+- Execute `dcat-merger [OPTION]...`.
+- You can also use the module, via 
+
+`
+var dcatMerger = require('dcat-merger');
+
+dcatMerger.merge().then(function(triples){
+	console.log(triples);
+});	
+`
+
+The variable `triples` is an array containing objects with the following elements: subject, predicate, object and graph = (triple).
 
 Output control
 
@@ -20,8 +32,6 @@ Output control
 - `-o, --output`: output file, if no output file is specified output is redirect to `stdout`.
 - `-h`, `--help`: show help
 - `--version`: show version information
-
-*In the folder `data` you can find some example Turtle files.*
 
 ### Remarks ###
 
