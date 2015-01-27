@@ -2,7 +2,7 @@
 
 var nodePrefix = require('node-prefix');
 var pkg = require('../package.json');
-
+var colors = require('colors');
 global.verbose = false;
 global.print = true;
 global.resources = nodePrefix.global('dcat-merger') + "/resources";
