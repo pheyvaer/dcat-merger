@@ -1,6 +1,11 @@
 ## DCAT Merger ##
 
-This [Node.js](http://nodejs.org) application allows to merge the [DCAT](http://www.w3.org/TR/vocab-dcat/) information of several sources into one single Turtle file.
+This [Node.js](http://nodejs.org) application allows to merge the [DCAT](http://www.w3.org/TR/vocab-dcat/) information of several sources into one single Turtle file. Below you can find a short summary of what happens under the hood.
+
+- We connect the existing datasets to the new catalog.
+- We create the necessary Catalog Records, between the catalog and the datasets.
+- We enhance the information of the datasets by using the available keywords and descriptions together with *named entity recognition (NER)*. NER is facilitated through DBpedia Spotlight.
+- We expand the information provided by DBpedia spotlight by querying DBpedia itself. This is done using [Linked Data Fragments](http://linkeddatafragments.org/) (via <http://fragments.dbpedia.org/2014/en>).
 
 ### Installation ###
 
@@ -39,7 +44,7 @@ The variable `triples` is an array containing objects with the following element
 
 ### Remarks ###
 
-- To match the different concepts from DBpedia with those form the TDT/dcat taxonomy, we created a basic mapping between the two. Replacing themeMatcher.js with a custom implementation allows to inject your own dynamic/static mapping.
+- To match the different concepts from DBpedia with those from the TDT/dcat taxonomy, we created a basic mapping between the two. Replacing themeMatcher.js with a custom implementation allows to inject your own dynamic/static mapping.
 - To define the spatial property of a dataset, we created a spatialDetector.js. Based on the found resources (using NER), we determine if the resources point to a place/location etc. If you want to determine which types of classes are recognised as spatial, you can edit `resources/spatialConfig.js` (if you run it in a Node.js Application).
 - Tested on Ubuntu 14.04.
 
