@@ -17,5 +17,9 @@
     "q": "^1.1.2",
     "validator": "^3.27.0"
   },
-  "bin": "./bin/dcat-merger.js"
+  "bin": "./bin/dcat-merger.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pheyvaer/dcat-merger.git"
+  }
 }
