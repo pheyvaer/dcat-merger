@@ -21,5 +21,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/pheyvaer/dcat-merger.git"
-  }
+  },
+
+  "license" : "MIT",
+  "keywords": ["dcat", "merger", "open data", "named entity recognition"]
 }
