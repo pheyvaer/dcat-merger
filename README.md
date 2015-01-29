@@ -1,6 +1,6 @@
 ## DCAT Merger ##
 
-This [Node.js](http://nodejs.org) application allows to merge the [DCAT](http://www.w3.org/TR/vocab-dcat/) information of several sources into one single Turtle file. Below you can find a short summary of what happens under the hood.
+This [Node.js](http://nodejs.org) package allows to merge the [DCAT](http://www.w3.org/TR/vocab-dcat/) information of several sources into one single Turtle file. Below you can find a short summary of what happens under the hood.
 
 - We connect the existing datasets to the new catalog.
 - We create the necessary Catalog Records, between the catalog and the datasets.
@@ -24,16 +24,40 @@ Create a `config.json` with the sources you want to merge. An example `config.js
 Output control
 
 - `-v, --verbose`: verbose
-- `-o, --output`: output file, if no output file is specified output is redirect to `stdout`.
-- `-h`, `--help`: show help
+- `-c, --config` : config file, if not specified the program will look for 'config.json' in the current directory.
+- `-o, --output` : output file, if no output file is specified output is redirect to `stdout`.
+- `-t, --theme`  : config file for the themeMatcher, if not specified the default one will be used.
+- `-s, --spatial`: config file for the spatialDetector, if not specified the default one will be used.
+- `-h`, `--help` : show help
 - `--version`: show version information
 
 #### Node.js Module ####
 
 You can also use the module via 
 
-```
+```javascript
 var dcatMerger = require('dcat-merger');
+
+//here you can choose your own custom 'helpers'
+//or the ones that came with this package, those can be found 
+//in the 'lib' folder
+//for this examples we use the ones from this package
+
+var spatialDetector = require('../lib/spatialDetector.js');
+var themeMatcher = require('../lib/themeMatcher.js');
+
+//you also need to call some methods before they are ready for use
+//ttl is a string containing all the triples in Turtle format,
+//example in 'resources' folder
+themeMatcher.setMappingTriples(ttl);
+
+//spatialFile is a json file, example in  'resources' folder
+spatialDetector.setConfig(require(spatialFile));
+
+//you also need to set the config, example in config.json
+dcatMerger.setConfig(getConfigFromFile());
+dcatMerger.setThemeMatcher(themeMatcher);
+dcatMerger.setSpatialDetector(spatialDetector);
 
 dcatMerger.merge().then(function(triples){
 	console.log(triples);

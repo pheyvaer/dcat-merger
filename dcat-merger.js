@@ -2,7 +2,9 @@ if (!global.resources) {
   global.resources = __dirname + "/resources";
 }
 
-global.verbose = false;
+if (!global.verbose) {
+	global.verbose = false;
+}
 
 if (!global.print) {
   global.print = false;

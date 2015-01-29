@@ -28,5 +28,6 @@
     "merger",
     "open data",
     "named entity recognition"
-  ]
+  ], 
+  "preferGlobal" : true
 }
