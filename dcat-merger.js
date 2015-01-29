@@ -11,6 +11,7 @@ if (!global.print) {
 var loader = require('./lib/loader.js');
 var cataloger = require('./lib/cataloger.js');
 var Q = require('q');
+var Util = require('./lib/utilities.js');
 
 var merge = module.exports.merge = function() {
   var deferred = Q.defer();
@@ -39,3 +40,9 @@ var merge = module.exports.merge = function() {
 
   return deferred.promise;
 };
+
+var setConfig = module.exports.setConfig = Util.setConfig;
+
+var setSpatialDetector = module.exports.setSpatialDetector = Util.setSpatialDetector;
+
+var setThemeMatcher = module.exports.setThemeMatcher = Util.setThemeMatcher;
