@@ -17,8 +17,10 @@ var outputFileIndex;
 //default location for the spatial file
 var spatialFile = global.resources + '/spatialConfig.json';
 var spatialFileIndex;
-var themeFile;
+//default location for the theme file
+var themeFile = global.resources + '/mappingDBpediaTDTTaxonomy.ttl';
 var themeFileIndex;
+//default location for the config file
 var configFile = process.cwd() + "/config.json";
 var configFileIndex;
 
@@ -113,13 +115,14 @@ var getConfigFromFile = function() {
   }
 };
 
-var getMappingTTLFromFile = function() {
+var getMappingTriplesFromFile = function() {
   var deferred = Q.defer();
-  fs.readFile(global.resources + '/mappingDBpediaTDTTaxonomy.ttl', {
+  fs.readFile(themeFile, {
     encoding: "utf8"
   }, function(err, data) {
     if (err) {
-      console.log("themeMatcher: required file for themeMatcher was not found.".red);
+      var str = "themeMatcher: the file '" + themeFile + "' was not valid/found.";
+      console.log(str.red);
       process.exit(1);
     } else {
       var parser = N3.Parser();
@@ -142,40 +145,40 @@ var themeMatcher = require('../lib/themeMatcher.js');
 var dcatMerger = require('../dcat-merger.js');
 var writer = require('../lib/writer.js');
 
-//getMappingTTLFromFile().then(function(ttl) {
-//themeMatcher.setMappingTriples([]);
+getMappingTriplesFromFile().then(function(ttl) {
+  themeMatcher.setMappingTriples(ttl);
 
-try {
-  spatialDetector.setConfig(require(spatialFile));
-} catch (err) {
-  var str = "spatialDetector: the file '" + spatialFile + "' was not valid/found.";
-  console.log(str.red);
-  process.exit(1);
-}
-
-dcatMerger.setConfig(getConfigFromFile());
-dcatMerger.setThemeMatcher(themeMatcher);
-dcatMerger.setSpatialDetector(spatialDetector);
-
-console.log("Loading & parsing started ");
-
-dcatMerger.merge().then(function(triples) {
-  if (outputFile) {
-    if (global.verbose) {
-      console.log("Writing to '" + outputFile + "' started");
-    } else {
-      process.stdout.write("Writing to '" + outputFile + "' ... ");
-    }
+  try {
+    spatialDetector.setConfig(require(spatialFile));
+  } catch (err) {
+    var str = "spatialDetector: the file '" + spatialFile + "' was not valid/found.";
+    console.log(str.red);
+    process.exit(1);
   }
 
-  writer.write(triples, outputFile);
+  dcatMerger.setConfig(getConfigFromFile());
+  dcatMerger.setThemeMatcher(themeMatcher);
+  dcatMerger.setSpatialDetector(spatialDetector);
 
-  if (outputFile) {
-    if (global.verbose) {
-      console.log("Writing to '" + outputFile + "' finished");
-    } else {
-      console.log("done");
+  console.log("Loading & parsing started ");
+
+  dcatMerger.merge().then(function(triples) {
+    if (outputFile) {
+      if (global.verbose) {
+        console.log("Writing to '" + outputFile + "' started");
+      } else {
+        process.stdout.write("Writing to '" + outputFile + "' ... ");
+      }
     }
-  }
+
+    writer.write(triples, outputFile);
+
+    if (outputFile) {
+      if (global.verbose) {
+        console.log("Writing to '" + outputFile + "' finished");
+      } else {
+        console.log("done");
+      }
+    }
+  });
 });
-//});
