@@ -1,6 +1,6 @@
 {
   "name": "dcat-merger",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Merging several DCAT inputs into a single DCAT output.",
   "main": "dcat-merger.js",
   "scripts": {
