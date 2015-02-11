@@ -32,8 +32,8 @@ var helpMessage = "dcat-merger [OPTION]...\n\n" +
   "\t-o, --output : output file, if no output file is specified output is redirected to 'stdout'.\n" +
   "\t-t, --theme  : config file for the themeMatcher, if not specified the default one will be used.\n" +
   "\t-s, --spatial: config file for the spatialDetector, if not specified the default one will be used.\n" +
-  "\t-h, --help   : show help (that is, this)\n" +
-  "\t--version    : show version information";
+"\t-h, --help   : show help (that is, this)\n" +
+"\t--version    : show version information";
 
 var badExit = function() {
   console.log(errorMessage + "\n");

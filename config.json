@@ -8,7 +8,7 @@
 
   "spotlightEndpoints": {
     "english": {
-      "host": "spotlight.sztaki.hu",
+      "host": "hotterre",
       "path": "/rest/annotate",
       "port": "2222",
       "confidence": "0",
@@ -37,5 +37,7 @@
     "spatial": "",
     "homepage": "http://www.example.com",
   	"publisher" : ""
-  }
+  },
+
+  "useNER" : false
 }

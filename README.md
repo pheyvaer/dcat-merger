@@ -16,7 +16,7 @@ This [Node.js](http://nodejs.org) package allows to merge the [DCAT](http://www.
 
 ### Usage ###
 
-Create a `config.json` with the sources you want to merge. An example `config.json` can be found in the repo. For every source you need to provide the name and the url or file. You want to choose the option 'file' if you want to read a local Turtle file. Here, you can also set the DBpedia spotlight instances you want to use for NER. *In the folder `data` you can find some example Turtle files.*
+Create a `config.json` with the sources you want to merge. An example `config.json` can be found in the repo. For every source you need to provide the name and the url or file. You want to choose the option 'file' if you want to read a local Turtle file. Here, you can also set the DBpedia spotlight instances you want to use for NER. By default the use of NER is disabled, however, you can enable it by adding `"useNER" : true` to your `config.json`. *In the folder `data` you can find some example Turtle files.*
 
 #### Stand Alone Application ####
 - Execute `dcat-merger [OPTION]...`.
